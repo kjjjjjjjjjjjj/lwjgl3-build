@@ -46,4 +46,4 @@ jobs:
 
         with:
 
-          path: /usr/bin/lwjgl-glfw-classes.jar
+          path: /usr/bin
