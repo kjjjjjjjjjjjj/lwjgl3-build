@@ -33,48 +33,6 @@ jobs:
 
         uses: actions/checkout@v3
 
-      - name: Get JRE 8
-
-        uses: dawidd6/action-download-artifact@v2
-
-        with:
-
-          workflow: build.yml
-
-          path: app_pojavlauncher/src/main/assets/components/jre
-
-          workflow_conclusion: success
-
-          repo: Vera-Firefly/android-openjdk-build
-
-          branch: buildjre8
-
-          name: jre8-pojav
-
-      - name: Get JRE17
-
-        uses: dawidd6/action-download-artifact@v2
-
-        with:
-
-          workflow: build.yml
-
-          path: app_pojavlauncher/src/main/assets/components/jre-new
-
-          workflow_conclusion: success
-
-          repo: Vera-Firefly/android-openjdk-build
-
-          branch: buildjre17
-
-          name: jre17-pojav
-
-      - uses: gradle/gradle-build-action@v2
-
-        with:
-
-          gradle-version: 7.6.1
-      
       - name: Build JRE JAR files
         run: |
         
@@ -82,24 +40,6 @@ jobs:
           
           gradle :jre_lwjgl3glfw:build --no-daemon
       
-      - name: Set up JDK 17
-
-        uses: actions/setup-java@v3
-
-        with:
-
-          distribution: 'temurin'
-
-          java-version: '17'
-
-      - name: Build Debug.apk
-
-        run: |
-
-          # Build the launcher
-
-          gradle :app_pojavlauncher:assembleDebug
-
       - name: Upload APK
 
         uses: actions/upload-artifact@v3
