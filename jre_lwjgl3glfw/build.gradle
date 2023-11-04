@@ -9,7 +9,6 @@ configurations.default.setCanBeResolved(true)
 jar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     archiveBaseName = "lwjgl-glfw-classes"
-    versionFile.write(String.valueOf(new Date().getTime()))
     from {
         configurations.default.collect {
             println(it.getName())
