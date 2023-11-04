@@ -1,6 +1,6 @@
 # PojavLauncher-Beta-Zink lwjgl build
 点击切换<a href="/README-ZH_CN.md">中文</a>
-# About PojavLauncher-Beta-Zink:
+# About [PojavLauncher-Beta-Zink](https://github.com/Vera-Firefly/PojavLauncher-Beta-Zink):
 ## Introduction:
 * This app will be aligned with the Pojav team's main branch update →[v3_openjdk](https://github.com/PojavLauncherTeam/PojavLauncher/tree/v3_openjdk)
 
