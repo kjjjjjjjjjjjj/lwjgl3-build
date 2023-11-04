@@ -43,3 +43,7 @@ jobs:
       - name: Upload
 
         uses: actions/upload-artifact@v3
+
+        with:
+
+          path: jre_lwjgl3glfw/build/outputs/lwjgl-glfw-classes.jar
