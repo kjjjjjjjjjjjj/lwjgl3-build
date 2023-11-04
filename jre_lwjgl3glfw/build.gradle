@@ -9,6 +9,7 @@ configurations.default.setCanBeResolved(true)
 jar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     archiveBaseName = "lwjgl-glfw-classes"
+    destinationDirectory.set(file("../app_pojavlauncher/src/main/assets/components/lwjgl3/"))
     from {
         configurations.default.collect {
             println(it.getName())
