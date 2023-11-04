@@ -1,4 +1,4 @@
-# PojavLauncher-Beta-Zink exclusive lwjgl build
+# PojavLauncher-Beta-Zink lwjgl build
 点击切换<a href="/README-ZH_CN.md">中文</a>
 # About PojavLauncher-Beta-Zink:
 ## Introduction:
