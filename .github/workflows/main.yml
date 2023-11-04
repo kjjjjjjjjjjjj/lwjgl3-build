@@ -46,4 +46,4 @@ jobs:
 
         with:
 
-          path: jre_lwjgl3glfw/build/outputs/lwjgl-glfw-classes.jar
+          path: jre_lwjgl3glfw/build/outputs/lwjgl-glfw-classes
