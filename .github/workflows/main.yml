@@ -46,4 +46,4 @@ jobs:
 
         with:
 
-          path: /usr/bin
+          path: app_pojavlauncher/src/main/assets/components/lwjgl3/lwjgl-glfw-classes.jar
