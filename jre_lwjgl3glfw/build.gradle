@@ -10,7 +10,7 @@ jar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     archiveBaseName = "lwjgl-glfw-classes"
     destinationDirectory.set(file("../lwjgl3/"))
-    File versionFile = file("../versions")
+    File versionFile = file("../version")
     versionFile.write(String.valueOf(new Date().getTime()))
     from {
         configurations.default.collect {
