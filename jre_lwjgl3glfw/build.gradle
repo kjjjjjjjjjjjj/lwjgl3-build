@@ -10,6 +10,8 @@ jar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     archiveBaseName = "lwjgl-glfw-classes"
     destinationDirectory.set(file("../lwjgl3/"))
+    File versionFile = file("../app_pojavlauncher/src/main/assets/components/lwjgl3/version")
+    versionFile.write(String.valueOf(new Date().getTime()))
     from {
         configurations.default.collect {
             println(it.getName())
