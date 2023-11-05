@@ -48,4 +48,4 @@ jobs:
 
           name: lwjgl
 
-          path: app_pojavlauncher/src/main/assets/components/lwjgl3/lwjgl-glfw-classes.jar
+          path: lwjgl3/*
