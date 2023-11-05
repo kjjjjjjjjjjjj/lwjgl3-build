@@ -11,7 +11,7 @@ jar {
     archiveBaseName = "lwjgl-glfw-classes"
     destinationDirectory.set(file("../lwjgl3/"))
     // Auto update the version with a timestamp so the project jar gets updated by Pojav
-    File versionFile = set(file("../lwjgl3/version"))
+    File versionFile = file("../lwjgl3/version")
     versionFile.write(String.valueOf(new Date().getTime()))
     from {
         configurations.default.collect {
