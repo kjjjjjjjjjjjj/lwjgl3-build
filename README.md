@@ -12,6 +12,8 @@
 
 * This is not the official version, it's just a modified,If you don't want to use it, please go to the [PojavLauncherTeam](https://github.com/PojavLauncherTeam/PojavLauncher)
 
+* 
+
 ## Notice:
 * If you are using a device with a Snapdragon processor and you want to use the zink renderer to render light and shadow, be careful to identify the Mesa version
 
