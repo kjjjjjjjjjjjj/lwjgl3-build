@@ -9,7 +9,7 @@ configurations.default.setCanBeResolved(true)
 jar {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     archiveBaseName = "lwjgl-glfw-classes"
-    destinationDirectory.set(file("../lwjgl3/"))
+    destinationDirectory.set(file("../"))
     File versionFile = file("../version")
     versionFile.write(String.valueOf(new Date().getTime()))
     from {
